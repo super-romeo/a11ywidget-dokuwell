@@ -16,6 +16,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="For site owners: display options for visitors, automatic fixes for common issues and a daily scan that shows what still needs a developer.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -75,38 +79,68 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <!-- Google Tag Manager (noscript): по заказу «Смоков» (СМ-09) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Clear Access Widget</a></div>
-  <nav class="top"><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Clear Access Widget</a>
+  <nav><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>An accessibility widget that is honest about what it fixes — display options, common fixes and a daily list of the rest</h1>
-    <p class="sub">For owners of websites and shops: add one line of code, and visitors get display options such as larger text and higher contrast; common issues like missing labels are patched automatically, and a daily scan lists what still needs a fix in the site itself.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">I need this</a>
-    <p class="cta-note">Early access · No payment is taken on this page yet</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> For owners of websites and shops</p>
+      <h1 class="rise" style="--i:1" data-len="xlong">An accessibility widget that is honest about what it fixes&nbsp;<span class="soft">— display options, common fixes and a daily list of the rest</span></h1>
+      <p class="rise" style="--i:2">For owners of websites and shops: add one line of code, and visitors get display options such as larger text and higher contrast; common issues like missing labels are patched automatically, and a daily scan lists what still needs a fix in the site itself.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">I need this</a>
+      <p class="meta rise" style="--i:4">Early access · No payment is taken on this page yet</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="130" y="165" font-size="40" font-weight="600" fill="#0a1524">Display options</text><line x1="130" y1="210" x2="1070" y2="210" stroke="#dde2ea" stroke-width="3" fill="none" /><rect x="130" y="270" width="460" height="72" rx="18" fill="#12397a" /><rect x="160" y="294" width="240" height="24" rx="8" fill="#ffffff" /><rect x="130" y="370" width="460" height="72" rx="18" fill="#dfe8f7" /><rect x="160" y="394" width="200" height="24" rx="8" fill="#ffffff" /><rect x="130" y="470" width="460" height="72" rx="18" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="160" y="494" width="280" height="24" rx="8" fill="#dde2ea" /><rect x="680" y="270" width="380" height="380" rx="20" fill="#dfe8f7" /><text x="720" y="340" font-size="34" font-weight="600" fill="#0a1524">Daily scan</text><rect x="720" y="400" width="300" height="30" rx="10" fill="#ffffff" /><rect x="720" y="460" width="240" height="30" rx="10" fill="#12397a" /><rect x="720" y="520" width="270" height="30" rx="10" fill="#b9c3d2" /></svg></figure>
+    <dl class="facts">
+      <div><dt>For</dt><dd>Owners of websites</dd></div>
+      <div><dt>Widget</dt><dd>Display options</dd></div>
+      <div><dt>How</dt><dd>One line of code</dd></div>
+      <div><dt>Access</dt><dd>Early access</dd></div>
+    </dl>
+  </section>
 
   <section id="what" data-view="features_view">
-    <h2>What you get</h2>
-    <div class="grid">
-      <div class="card"><b>Display options</b><span>Larger text, higher contrast, wider spacing and a readable font for visitors.</span><br><a class="btn" href="price.html" data-ev="feature_display">I need this</a></div>
-      <div class="card"><b>Common fixes</b><span>Missing labels and alternative text patched while you fix the source.</span><br><a class="btn" href="price.html" data-ev="feature_fixes">I need this</a></div>
-      <div class="card"><b>Daily scan</b><span>Every day, a list of issues the widget cannot fix on its own.</span><br><a class="btn" href="price.html" data-ev="feature_scan">I need this</a></div>
-      <div class="card"><b>Accessibility statement</b><span>A draft statement that describes what was done and what remains.</span><br><a class="btn" href="price.html" data-ev="feature_statement">I need this</a></div>
+    <div class="stack"><h2>What you get</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="36" font-weight="600" fill="#0a1524">Display options</text><circle cx="200" cy="280" r="46" fill="#12397a" /><circle cx="340" cy="280" r="46" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><circle cx="480" cy="280" r="46" fill="#dde2ea" /><circle cx="620" cy="280" r="46" fill="#b9c3d2" /><rect x="150" y="380" width="500" height="28" rx="10" fill="#dde2ea" /><rect x="150" y="430" width="380" height="28" rx="10" fill="#dfe8f7" /></svg></div>
+        <h3>Display options</h3><p>Larger text, higher contrast, wider spacing and a readable font for visitors.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_display">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="150" y="70" width="500" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="190" y="150" font-size="36" font-weight="600" fill="#0a1524">Common fixes</text><rect x="190" y="200" width="360" height="22" rx="8" fill="#dde2ea" /><rect x="190" y="250" width="300" height="22" rx="8" fill="#b9c3d2" /><rect x="190" y="300" width="400" height="22" rx="8" fill="#dde2ea" /><circle cx="490" cy="430" r="56" fill="#dfe8f7" stroke="#12397a" stroke-width="4" /><polyline points="460,430 482,454 526,392" fill="none" stroke="#12397a" stroke-width="6" /></svg></div>
+        <h3>Common fixes</h3><p>Missing labels and alternative text patched while you fix the source.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_fixes">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="36" font-weight="600" fill="#0a1524">Daily scan</text><rect x="140" y="210" width="100" height="78" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="2" /><rect x="260" y="210" width="100" height="78" rx="10" fill="#12397a" /><rect x="380" y="210" width="100" height="78" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="2" /><rect x="500" y="210" width="100" height="78" rx="10" fill="#dde2ea" /><rect x="140" y="320" width="100" height="78" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="260" y="320" width="100" height="78" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="380" y="320" width="100" height="78" rx="10" fill="#b9c3d2" /><rect x="500" y="320" width="100" height="78" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="140" y="430" width="460" height="36" rx="12" fill="#dde2ea" /></svg></div>
+        <h3>Daily scan</h3><p>Every day, a list of issues the widget cannot fix on its own.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_scan">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="160" y="60" width="480" height="480" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="200" y="140" font-size="30" font-weight="600" fill="#0a1524">Accessibility statement</text><rect x="200" y="190" width="340" height="20" rx="8" fill="#12397a" /><rect x="200" y="240" width="390" height="18" rx="8" fill="#dde2ea" /><rect x="200" y="284" width="300" height="18" rx="8" fill="#b9c3d2" /><rect x="200" y="328" width="360" height="18" rx="8" fill="#dde2ea" /><rect x="200" y="372" width="250" height="18" rx="8" fill="#dde2ea" /><rect x="200" y="430" width="200" height="48" rx="14" fill="#dfe8f7" /></svg></div>
+        <h3>Accessibility statement</h3><p>A draft statement that describes what was done and what remains.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_statement">I need this</a>
+      </article>
     </div>
   </section>
 
-  <section id="example" data-view="example_view">
-    <h2>Example (fictional data)</h2>
-    <p class="fine">A small online shop adds the widget to its theme. Visitors with low vision can enlarge text and raise contrast from a button in the corner. The first daily scan finds 120 product images without alternative text and a checkout form whose fields have no labels; the widget patches the labels at once, and the report sends the images and the form template to the developer as two clear tasks.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Choose your plan</a>
+  <section id="example" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Example</h2>
+      <p>A small online shop adds the widget to its theme. Visitors with low vision can enlarge text and raise contrast from a button in the corner. The first daily scan finds 120 product images without alternative text and a checkout form whose fields have no labels; the widget patches the labels at once, and the report sends the images and the form template to the developer as two clear tasks.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Choose your plan</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="240" y1="150" x2="960" y2="150" stroke="#dde2ea" stroke-width="6" fill="none" /><circle cx="240" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="600" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="960" cy="150" r="22" fill="#12397a" /><text x="240" y="230" font-size="32" font-weight="600" fill="#0a1524" text-anchor="middle">low vision</text><text x="600" y="230" font-size="32" font-weight="600" fill="#0a1524" text-anchor="middle">daily scan</text><text x="960" y="230" font-size="32" font-weight="600" fill="#0a1524" text-anchor="middle">no labels</text><rect x="140" y="320" width="920" height="380" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="190" y="410" font-size="36" font-weight="600" fill="#0a1524">alternative text</text><rect x="190" y="480" width="200" height="120" rx="12" fill="#dde2ea" /><rect x="420" y="480" width="200" height="120" rx="12" fill="#b9c3d2" /><rect x="650" y="480" width="200" height="120" rx="12" fill="#12397a" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>How it works</h2>
-    <p>Many visitors need a website to adapt to them: larger text, higher contrast, more space between lines, a font that is easier to read. Most sites do not offer this, and visitors who need it leave or struggle through.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>How it works</h2></div>
+    <div class="stack">
+      <p>Many visitors need a website to adapt to them: larger text, higher contrast, more space between lines, a font that is easier to read. Most sites do not offer this, and visitors who need it leave or struggle through.</p>
     <p>At the same time, most sites have accessibility issues in their code: images without alternative text, buttons that only show an icon, form fields without labels. These are best fixed in the site itself, but that takes developer time, and new issues appear with every update.</p>
     <p>The widget works on both sides. You add one line of code to your site or install it through your platform's plugin. A small button appears in the corner of every page.</p>
     <p>Visitors who press it can change how the page is shown: text size, contrast, line and letter spacing, a readable font, a stop to animations, a highlighted focus for keyboard users. Their choice is remembered on the next visit.</p>
@@ -117,31 +151,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>A widget does not make a website fully compliant with WCAG on its own, and we do not claim that it does. Real accessibility comes from fixing the site itself; the widget gives visitors options now and gives you a clear, daily list of what to fix.</p>
     <p>Agencies that look after several client sites can add each site separately, see every daily report in one list and send each client a short monthly summary of what was fixed and what remains on their site.</p>
     <p>The service is built for owners of websites and online shops anywhere. It is in preparation: we are checking whether site owners need it before it is built.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Questions</h2>
-    <h3>What do visitors get?</h3>
-    <p>Display options: larger text, higher contrast, wider spacing, a readable font, stopped animations and a visible keyboard focus.</p>
-    <h3>What does the daily scan do?</h3>
-    <p>It lists, page by page, the issues the widget cannot fix by itself, and what changed since the last scan.</p>
-    <h3>Does the widget make my site fully compliant?</h3>
-    <p>No. It helps visitors and patches common issues; full accessibility comes from fixing the site itself.</p>
-    <h3>How is it installed?</h3>
-    <p>With one line of code or your platform's plugin.</p>
-    <h3>Can I use it already?</h3>
-    <p>Not yet. The service is in preparation, and we are checking whether site owners need it.</p>
+    <div class="stack"><h2>Questions</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>What do visitors get?</h3><p>Display options: larger text, higher contrast, wider spacing, a readable font, stopped animations and a visible keyboard focus.</p></div>
+      <div class="split flip"><h3>What does the daily scan do?</h3><p>It lists, page by page, the issues the widget cannot fix by itself, and what changed since the last scan.</p></div>
+      <div class="split flip"><h3>Does the widget make my site fully compliant?</h3><p>No. It helps visitors and patches common issues; full accessibility comes from fixing the site itself.</p></div>
+      <div class="split flip"><h3>How is it installed?</h3><p>With one line of code or your platform's plugin.</p></div>
+      <div class="split flip"><h3>Can I use it already?</h3><p>Not yet. The service is in preparation, and we are checking whether site owners need it.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Add your site</h2>
-    <p><label>What your site runs on<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— please choose —</option><option>WordPress</option><option>Shopify</option><option>Another platform</option><option>Custom code</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Start</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Add your site</h2>
+    </div>
+    <div class="tile stack">
+      <label>What your site runs on<select data-ev-focus="form_start"><option value="">— please choose —</option><option>WordPress</option><option>Shopify</option><option>Another platform</option><option>Custom code</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Start</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Clear Access Widget</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Privacy</a></p>
-  <p class="muted">Display options, common fixes and a daily scan. Does not by itself make a site fully WCAG compliant; not a legal opinion.</p>
+  <p>Display options, common fixes and a daily scan. Does not by itself make a site fully WCAG compliant; not a legal opinion.</p>
 </div></footer>
 
 </body>
